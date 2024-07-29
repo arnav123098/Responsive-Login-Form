@@ -1,0 +1,68 @@
+body {
+    background-color: #000;
+    background: url(https://i.pinimg.com/originals/b4/71/d6/b471d641c2fb84308dfb016cbf4ac6bb.gif);
+    background-size: cover;
+    color: #fff;
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    height: 300px;
+    width: 400px;
+    padding: 10%;
+    margin: auto auto;
+    background: rgba(0, 247, 255, 0.6);
+    box-shadow: 0 8px 32px 0 rgba(0, 183, 255, 0.35);
+    backdrop-filter: blur(9px);
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+input {
+    height: 17.5%;
+    width: 90%;
+    margin: 5px 0;
+    border: none;
+    border-radius: 7px;
+    font-size: 0.9rem;
+    padding-left: 0.5rem;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+button {
+    width: 40%;
+    height: 20%;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #333333;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Media Queries */
+@media (max-width: 400px) {
+    form {
+        width: 90%;
+    }
+    label {
+        font-size: 1.3rem;
+    }
+    input {
+        font-size: 0.9rem;
+    }
+    button {
+        font-size: 0.9rem;
+    }
+}
